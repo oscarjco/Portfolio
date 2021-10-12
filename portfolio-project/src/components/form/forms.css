@@ -1,0 +1,73 @@
+.App form {
+  padding: 1rem;
+}
+
+.App .login form {
+    float: left;
+}
+
+.App  form[name="login"] button {
+    float: left;
+    margin-left: 0;
+}
+
+  .App form h3 {
+    margin: 1rem;
+  }
+
+  .App form p {
+    margin: 0 1rem;
+  }
+
+  .App form input {
+    border: 1px solid #ccc;
+    padding: .3rem;
+  }  
+
+  .App form label {
+    display: block;
+    padding: .5rem 0;
+    font-weight: bold;
+  }
+
+  .App form input#form-title {
+    min-width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  .App form .ql-editor {
+    min-height: 4rem;
+  }
+  
+  .App form button {
+      font-size: 1rem;
+      font-weight: bold;
+      margin: 1.5rem 1rem;
+      padding: .5rem 1rem;
+      border: 1px solid #353944;
+      background-color: #fff;
+  }
+  
+  .App form button.green-button {
+    border: 1px solid seagreen;
+    background-color: seagreen;
+    color: #fff;
+  }
+  
+  .App form button[disabled] {
+      background-color: white;
+      color: darkgrey;
+  }
+  
+  .App form button:hover {
+      cursor: pointer;
+  }
+
+  .App form textarea {
+    resize: none;
+    width: 100%;
+    height: 80px;
+    font-family: inherit;
+    padding: 0.5rem;
+  }

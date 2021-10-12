@@ -1,0 +1,46 @@
+body {
+  background-color: lightgoldenrodyellow;
+  font-family: "Open Sans";
+  font-size: 1.1em;
+}
+
+.App {
+  color: #353944;
+}
+
+.App .container {
+  max-width: 1200px;
+  margin: 0 auto;    
+  padding: 0 2rem;
+}
+
+.App label {
+  font-weight: bold;
+}
+
+.App li {
+  list-style: none;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-message { 
+  background-color: #55A9D6; 
+  color: white;
+  padding: 2rem 1rem;
+  text-shadow: 0 1px 0 #444;
+}
+
+  .App-message.saved {
+    background: #51BB7A;
+  }
+
+  .App-message.deleted {
+    background: #FF3F69;
+  }
+
+footer {
+  height: 2.5rem;
+}

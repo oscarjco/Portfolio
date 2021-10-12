@@ -1,0 +1,145 @@
+.personal-info .photo {
+    border-radius: 50%;
+    width: 15rem;
+    position: absolute;
+    left: 60%;
+}
+
+.personal-info div.container {
+    margin-bottom: 2rem;
+}
+
+.personal-info h3 {
+    border-bottom: 1px solid seagreen;
+    padding-bottom: 0.5rem;
+}
+
+.personal-info ul {
+    margin: 0;
+    padding: 0 1.5rem;
+}
+
+.personal-info .main-info ul {
+    background-color: white;
+    border: 1px solid seagreen;
+    border-radius: 8px;
+    max-width: 50%;
+}
+
+@media screen and (max-width: 900px) {
+    .personal-info .main-info ul {
+        max-width: unset;
+    }
+
+    .personal-info .photo {
+        border-radius: 50%;
+        width: 10rem;
+        position: unset;
+        margin: 1rem 25% 0;
+    }
+
+    .education .knowledge, .experience .technology {
+        display: block;
+        border: none !important;
+        text-align: left;
+    }
+
+    .education .title h3 {
+        max-width: 66%;
+    }
+
+    .education .title h4 {
+        text-align: right;
+    }
+}
+
+
+.personal-info .main-info li{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+    border-bottom: 1px solid seagreen;
+}
+
+.personal-info .main-info li span {
+    text-align: right;
+}
+
+.personal-info .about {
+    text-align: justify;
+}
+
+.personal-info label {
+    margin-right: 1rem;
+}
+
+.personal-info .knowledge > div {
+    display: inline-grid;
+    margin: 0 2.5rem;
+}
+
+.personal-info .knowledge li {
+    list-style: square;
+    font-family: monospace;
+}
+
+
+
+.education > div {
+    margin-bottom: 2rem;
+}
+
+.education h2, .experience h2 {
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid seagreen;
+}
+
+.education ul, .experience ul {
+    padding: 0;
+}
+
+.education li, .experience li {
+    background-color: white;
+    margin-bottom: 1rem;
+    padding: 0 1rem 1rem 1rem;
+    border: 1px dotted seagreen;
+}
+
+.education p, .experience p {
+    text-align: justify;
+    margin-top: 0;
+}
+
+.education .knowledge, .experience .technology {
+    border-left: 1px solid seagreen;
+    font-family: monospace;
+}
+
+.education .knowledge:first-of-type, .experience .technology:first-of-type {
+    border-left: none;
+}
+
+.academic h2 {
+    margin-bottom: 0;
+}
+
+.academic .title, .experience .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-weight: bold;
+}
+
+.education .tutorial > p > div {
+    display: inline-block;
+    margin-right: 2em;
+}
+
+.experience .project p {
+    margin: 0.5rem 0;
+}
+
+.experience .links > a {
+    margin: 0 1rem;
+}

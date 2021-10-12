@@ -1,0 +1,82 @@
+    .App .posts ul {
+      margin: 0;
+      padding: 0;  
+    }
+
+    .App .posts li {
+      list-style: none;
+      background-color: #fff;
+      border: 1px solid seagreen;
+      border-radius: 8px;
+      box-shadow: 5px 5px seagreen;
+      margin: 1.5rem 0;
+      padding-bottom: 1rem;
+      font-family: sans-serif;
+    }
+
+    .App .posts li .new {
+      display: block;
+      padding: 0.5rem;
+      font-size: 1.25em;
+    }
+
+    .App .posts li p {
+      margin: 1rem;
+      margin-bottom: 0;
+      text-align: right;
+    }
+  
+    .App .posts h2 {
+      display: inline-block;
+      margin: 1rem;
+    }
+
+    .App .posts .post-data {
+      float: right;
+      margin: 0.75rem 1rem;
+      font-style: italic;
+    }
+
+    .App .posts .post-data span {
+      margin: 0 8px;
+    }
+
+    .App .posts .post-content {
+      margin: 0.5rem 1rem;
+    }
+
+    .App .posts a {
+      text-decoration: none;
+      font-weight: bold;
+      color: inherit;
+      margin: 0 0.5rem;
+    }
+      .App .posts a:hover {
+        color: seagreen;
+      }
+
+    .App .posts button.linkLike {
+      background: inherit;
+      border: none;
+      color: inherit;
+      font-family: inherit;
+      font-size: inherit;
+      font-weight: bold;
+      text-decoration: none;
+      margin: 0 0.5rem;
+    }
+
+      .App .posts button.linkLike:hover {
+        cursor: pointer;
+        color: seagreen;
+      }
+
+      
+@media screen and (max-width: 900px) {
+  
+  .App .posts .post-data {
+    float: none;
+    display: flex;
+    justify-content: space-between;
+  }
+}

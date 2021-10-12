@@ -1,0 +1,98 @@
+.App-header {
+    display: block;
+    background-color: seagreen;
+    color: #fff;
+    font-size: calc(10px + 1vmin);
+    padding: 1rem;
+    border-bottom: 2px outset;
+    font-family: sans-serif;
+  }
+  
+    .App-header ul {    
+      padding: 0;
+      margin: 0 1rem;
+    }
+    
+    .App-header li {
+      list-style: none;
+      display: inline;
+      padding: 1rem;
+      font-weight: bold;
+      border-left: 1px groove;
+    }
+
+    .App-header li.active {
+      background-color: white;
+      border-color: seagreen;
+    }
+
+    .App-header li.active > a {
+      color: seagreen;
+    }
+
+      .App-header li * {
+        color:#fff;
+        text-decoration: none;
+      }
+  
+      .App-header li:first-child {
+        border: none;
+      }
+
+      .App-header li a:hover {
+        text-decoration: underline;
+      }
+
+    .App-header li:last-child {
+      position: absolute;
+      right: 1rem;
+      top: 0;
+    }
+
+    .App-header li span {
+      font-style: italic;
+      font-weight: normal;
+    }
+
+    .App-header button.linkLike {
+      background: inherit;
+      border: none;
+      font-size: inherit;
+      font-weight: bold;
+      text-decoration: none;
+      margin-left: 1rem;
+    }
+      .App-header button.linkLike:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+
+
+@media screen and (max-width: 900px) {
+  .App-header {
+    overflow: scroll;
+    display: flex;
+    padding: 0.5rem 0.5rem 1rem;
+  }
+
+  .App-header ul li {
+    padding: 0.5rem;
+  }
+
+  .App-header ul li:last-child {
+    display: block;
+    text-align: right;
+    padding: 1rem 0 0;
+    border: none;
+    position: unset;
+  }
+
+  .App-header li.active {
+    background-color: unset;
+    border-color: unset;
+  }
+
+  .App-header li.active > a {
+    color: unset;
+  }
+}
